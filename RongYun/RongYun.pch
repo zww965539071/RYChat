@@ -1,0 +1,27 @@
+//
+//  RongYun.pch
+//  RongYun
+//
+//  Created by zww on 2017/7/18.
+//  Copyright © 2017年 zww. All rights reserved.
+//
+
+#ifndef RongYun_pch
+#define RongYun_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* RongYun_pch */
+
+#define NibookBFont [UIFont fontWithName:@"HelveticaNeue" size:16] //B号字体
+#define Color1_3A5275 [UIColor colorWithRed:58/255.0 green:82/255.0 blue:117/255.0 alpha:1.0]  //#3A5275
+#define AppBackgroudColor [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0     alpha:1.0]  //#FFFFFF
+#define ImageNamed(name)                [UIImage imageNamed:name]
+#define AppBlueColor [UIColor colorWithRed:74/255.0 green:183/255.0 blue:253/255.0 alpha:1.0]
+#define TextColor4C535D [UIColor colorWithRed:58/255.0 green:82/255.0 blue:117/255.0 alpha:1.0] //(新颜色替换)
+#define HEXCOLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define RGB(r,g,b)            [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0                                                                                                           alpha:1.0]
+// 屏幕高度  屏幕宽度
+#define SCREEN_HEIGHT         [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_WIDTH          [[UIScreen mainScreen] bounds].size.width

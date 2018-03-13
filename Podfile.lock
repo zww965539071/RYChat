@@ -1,0 +1,36 @@
+PODS:
+  - Masonry (1.0.2)
+  - RongCloudIM/CallKit (2.8.11):
+    - RongCloudIM/CallLib
+    - RongCloudIM/IMKit
+  - RongCloudIM/CallLib (2.8.11):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMKit (2.8.11):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.11)
+  - RongCloudIM/RedPacket (2.8.11):
+    - RongCloudIM/IMKit
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - RongCloudIM/CallKit
+  - RongCloudIM/CallLib
+  - RongCloudIM/IMKit
+  - RongCloudIM/IMLib
+  - RongCloudIM/RedPacket
+  - SDWebImage
+  - YYModel
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  RongCloudIM: b2b5aead4dca37ad8c2c06cea57d0a7321362cd0
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: d47045038178df38d4daf0a9bccfe3b9f24f76dc
+
+COCOAPODS: 1.2.1

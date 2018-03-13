@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RCDiyChatListCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d9u-ON-fUr">
+                    <rect key="frame" x="10" y="10" width="50" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="GkP-pa-0ox"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nihao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEf-zm-qwg">
+                    <rect key="frame" x="70" y="10" width="39.5" height="19"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFh-3w-cHJ">
+                    <rect key="frame" x="70" y="40.5" width="23.5" height="16.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="星期三" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ofq-Vv-Ivj">
+                    <rect key="frame" x="323" y="10" width="42" height="16.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IEf-zm-qwg" firstAttribute="leading" secondItem="d9u-ON-fUr" secondAttribute="trailing" constant="10" id="2L6-Si-SJI"/>
+                <constraint firstItem="d9u-ON-fUr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="92m-1g-ytY"/>
+                <constraint firstAttribute="bottom" secondItem="d9u-ON-fUr" secondAttribute="bottom" constant="10" id="9g2-UQ-DwK"/>
+                <constraint firstItem="d9u-ON-fUr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="DMz-G1-cxr"/>
+                <constraint firstItem="Ofq-Vv-Ivj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="DsP-mA-P21"/>
+                <constraint firstItem="GFh-3w-cHJ" firstAttribute="leading" secondItem="d9u-ON-fUr" secondAttribute="trailing" constant="10" id="JlB-rs-05O"/>
+                <constraint firstAttribute="bottom" secondItem="GFh-3w-cHJ" secondAttribute="bottom" constant="10" id="p76-Tq-SzV"/>
+                <constraint firstItem="IEf-zm-qwg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="pk6-bl-6H0"/>
+                <constraint firstAttribute="trailing" secondItem="Ofq-Vv-Ivj" secondAttribute="trailing" constant="10" id="qtP-be-3r1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconV" destination="d9u-ON-fUr" id="tje-Ps-P02"/>
+                <outlet property="nickL" destination="IEf-zm-qwg" id="V1n-1L-TYJ"/>
+                <outlet property="timeL" destination="Ofq-Vv-Ivj" id="tk9-Pp-noG"/>
+                <outlet property="tipL" destination="GFh-3w-cHJ" id="M3C-Le-emA"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-248.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,10 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/RongCloudIM/RongCloudIM" "${PODS_ROOT}/RongCloudIM/RongCloudIM/JrmfIMLib" "${PODS_ROOT}/RongCloudIM/RongCloudIM/AlipaySDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/RongCloudIM" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/YYModel"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Masonry" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/YYModel" $(inherited) "${PODS_ROOT}/RongCloudIM/RongCloudIM"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/RongCloudIM" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/YYModel"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Masonry" -l"SDWebImage" -l"YYModel" -l"c++" -l"c++abi" -l"opencore-amrnb" -l"sqlite3" -l"stdc++" -l"xml2" -l"z" -framework "AVFoundation" -framework "AgoraRtcEngineKit" -framework "AlipaySDK" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreAudio" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "CoreText" -framework "CoreVideo" -framework "Foundation" -framework "ImageIO" -framework "JYangToolKit" -framework "JrmfPacketKit" -framework "JrmfWalletKit" -framework "MapKit" -framework "OpenGLES" -framework "QuartzCore" -framework "RongCallKit" -framework "RongCallLib" -framework "RongIMKit" -framework "RongIMLib" -framework "SafariServices" -framework "SystemConfiguration" -framework "UIKit" -framework "VideoToolbox"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
